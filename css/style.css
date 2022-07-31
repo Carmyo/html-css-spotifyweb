@@ -143,8 +143,6 @@ header {
     background-color: #080b12;
     display: flex;
     justify-content: flex-end;
-
-
 }
 
 .upgrade {
@@ -164,15 +162,43 @@ header {
 ul {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0 30%;
     list-style: none;
     padding-top: 1%;
+}
 
+li {
+    padding: 0 30px;
 
 }
+
+/*MAIN CONTENT*/
 
 .main-container {
-
-    padding-left: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
+
+.album-container {
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2%;
+}
+
+.created-for {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 65%;
+}
+
+p {
+    padding: 1% 0;
+}
+
+.artist-propic {
+    border-radius: 50%;
+}
+
+.album-cover {}

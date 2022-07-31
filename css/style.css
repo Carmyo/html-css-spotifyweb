@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.web-app {
+    width: 100%;
+
+}
+
+/*utilities*/
+.text-grey {
+    color: #626262;
+}
+
+.aside-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/*ASIDE*/
+aside {
+    width: 300px;
+    height: 90%;
+    background-color: black;
+    position: fixed;
+}
+
+.logo {
+    padding-top: 15px;
+
+    padding-bottom: 20px;
+    width: 80%;
+}
+
+.aside-icon {
+    width: 71px;
+    height: 56px;
+}
+
+.home {
+    padding-top: 20px;
+}
+
+.search {
+    padding-top: 33px;
+}
+
+.library {
+    padding-top: 40px;
+}
+
+.aside-top-icon {
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-top {
+    display: flex;
+}
+
+/*ASIDE-MIDDLE*/
+
+h1 {
+    color: white;
+    padding-top: 30px;
+
+}
+
+button {
+    background-color: #a3a3a3;
+    color: black;
+    font-size: 50px;
+    margin-top: 30px;
+    padding: 0 15px;
+}
+
+.new-playlist {
+    display: inline;
+    padding-left: 15px;
+    vertical-align: text-top;
+}
+
+.playlist {
+
+    padding-top: 20px;
+}
+
+/*ASIDE-BOTTOM*/
+
+.aside-bottom {
+    padding-top: 200px;
+}
+
+.download {
+    padding-bottom: 10px;
+}
+
+.download-icon {
+    border-radius: 60%;
+    text-align: center;
+    border: #626262;
+    font-size: 30px;
+}
+
+.install {
+    display: inline;
+    padding-left: 10px;
+}
+
+.username {
+    color: white;
+    display: inline;
+    padding-left: 10px;
+}
+
+.propic {
+    background-color: #a3a3a3;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+}
+
+/*MAIN*/
+
+/*MAIN-HEADER*/
+
+
+main {
+
+    margin-left: 300px;
+}
+
+header {
+    background-color: #080b12;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.upgrade {
+    color: white;
+    background-color: #080b12;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 15px 45px;
+    font-size: 15px;
+    margin-bottom: 3%;
+    margin-right: 1%;
+}

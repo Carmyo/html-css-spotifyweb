@@ -166,6 +166,7 @@ ul {
     margin: 0 30%;
     list-style: none;
     padding-top: 1%;
+    flex-wrap: wrap;
 }
 
 li {
@@ -185,6 +186,7 @@ li {
     display: flex;
     justify-content: space-around;
     padding-bottom: 2%;
+    flex-wrap: wrap;
 }
 
 .created-for {
@@ -201,4 +203,33 @@ p {
     border-radius: 50%;
 }
 
-.album-cover {}
+.album-cover {
+    padding: 0 3px;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: gray;
+}
+
+
+/*MD*/
+
+@media screen and (max-width: 768px) {
+    .wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/*XS*/
+@media screen and (max-width: 576px) {
+    aside {
+        width: 40px;
+    }
+
+    .dsplay-none {
+        display: none;
+    }
+}
